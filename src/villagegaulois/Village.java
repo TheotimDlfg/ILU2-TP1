@@ -196,3 +196,6 @@ public class Village {
 
 	
 }
+
+
+/* Probleme avec les visibilité de afficherMarche et trouverVendeur car je devrais les utiliser dans les fonction plus bas surement utilisation de static pour avoir acces au methode dans le code plus bas */

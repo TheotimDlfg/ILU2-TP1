@@ -37,7 +37,7 @@ public class Etal {
 				chaine.append("il n'a malheureusement rien vendu.\n");
 			}
 		}catch(NullPointerException e){
-			System.out.println("L'Ã©tal est dÃ©jÃ  vide.");
+			System.out.println("L'étal est déjà  vide.");
 		}
 
 		return chaine.toString();
@@ -56,7 +56,7 @@ public class Etal {
 	        throw new IllegalArgumentException("La quantitÃ© achetÃ©e doit Ãªtre d'au moins 1.");
 	    }
 	    if (!etalOccupe) {
-	        throw new IllegalStateException("L'Ã©tal est vide.");
+	        throw new IllegalStateException("L'étal est vide.");
 	    }
 		StringBuilder chaine = new StringBuilder();
 		try {
@@ -86,3 +86,6 @@ public class Etal {
 	}
 
 }
+
+
+/*ligne 78 je dois préciser le nom de l'erreur sinon problemes*/
